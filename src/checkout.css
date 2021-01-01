@@ -14,3 +14,15 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
+.checkout_right{
+    display: none;
+}
+@media only screen and (max-width: 1023px){
+.checkout_rights{
+    display: none;
+}
+.checkout_right{
+    display: block;
+}
+
+}

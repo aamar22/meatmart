@@ -15,6 +15,10 @@ function Checkout(){
                     <h2 className="checkout_title">
                         Your shopping Basket
                     </h2>
+                    <div className='checkout_right'>
+                <Subtotal/>
+                <h2>The subtotal with go here</h2>
+            </div>
                  {basket.map(item=>(
                      <CheckoutProduct
                      id={item.id}
@@ -27,7 +31,7 @@ function Checkout(){
 
                 </div>
             </div>
-            <div className='checkout_right'>
+            <div className='checkout_rights'>
                 <Subtotal/>
                 <h2>The subtotal with go here</h2>
             </div>
