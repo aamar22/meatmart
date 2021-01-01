@@ -61,9 +61,17 @@
 @media only screen and (max-width: 1023px){
 
 .header {
-    height:80px;
+    height:133px;
     position: sticky;
+    display: block;
     
    
+}
+.header_searchInput {
+    height: 12px;
+    padding: 7px;
+    margin-left: 13px;
+    border: none;
+    width: 69%;
 }
 }
