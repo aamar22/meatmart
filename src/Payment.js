@@ -38,7 +38,7 @@ function Payment(){
     console.log('THE SECRET IS >>>', clientSecret)
     console.log('👱', user)
    
-    const handlesubmit = async (event) =>{
+    const handleSubmit = async (event) =>{
 
         event.preventDefault();
         setProcessing(true);
@@ -119,7 +119,7 @@ function Payment(){
                     </div>
                     <div className='payment_detail'>
                         <h3>Payment Method</h3>
-                        <form onSubmit={handlesubmit}>
+                        <form onSubmit={handleSubmit}>
                             <CardElement onChange={handleChange}/>
                         </form>
                     </div>

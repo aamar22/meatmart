@@ -29,12 +29,12 @@ function footer(){
             </div>
             <div className="bases mar">
                 <h2>LOCATION</h2>
-                <p>chennai</p>
-                <p>bangalore</p>
-                <p>mumbai</p>
-                <p>chennai</p>
-                <p>bangalore</p>
-                <p>mumbai</p>
+                <p>Chennai</p>
+                <p>Bangalore</p>
+                <p>Mumbai</p>
+                <p>Kolkata</p>
+                <p>Delhi</p>
+                <p>Hyderabad</p>
             </div>
             
         </div>
